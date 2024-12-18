@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IceRanger"
+        tools:targetApi="31">
+        <activity
+            android:name=".LupaSandi"
+            android:exported="false" />
+        <activity
+            android:name=".Tentang"
+            android:exported="false" />
+        <activity
+            android:name=".LacakPengiriman"
+            android:exported="false" />
+        <activity
+            android:name=".LihatPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".EditPelanggan"
+            android:exported="false" />
+        <activity
+            android:name=".HapusAkun"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPelanggan"
+            android:exported="false" />
+        <activity
+            android:name=".TambahDriver"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDBsq0NPXHjgAWEgIav2qnZejB7piD47l0" />
+
+        <activity
+            android:name=".PetaPelanggan"
+            android:exported="false"
+            android:label="@string/title_activity_peta_pelanggan" />
+        <activity
+            android:name=".PengirimanActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TambahPesanan"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PesananActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TambahPelanggan"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditAkun"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoVerifikasiActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GantiPassActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoInternetActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LihatProfilActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditPengguna"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PenggunaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TambahPengguna"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

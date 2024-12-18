@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_beranda"
+        android:icon="@drawable/baseline_home_33"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/menu_riwayat"
+        android:icon="@drawable/baseline_article_33"
+        android:title="Riwayat" />
+    <item
+        android:id="@+id/menu_toko"
+        android:icon="@drawable/baseline_store_33"
+        android:title="Pelanggan" />
+    <item
+        android:id="@+id/menu_akun"
+        android:icon="@drawable/baseline_person_33"
+        android:title="Akun" />
+</menu>

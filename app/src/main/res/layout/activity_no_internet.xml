@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".NoInternetActivity">
+    <ImageView
+        android:id="@+id/gbr_nointernet"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="33dp"
+        android:src="@mipmap/nointernet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+    <TextView
+        android:id="@+id/jdl_nointernet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tidak Ada Koneksi Internet"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gbr_nointernet"
+        app:layout_constraintVertical_bias="0.5"/>
+    <Button
+        android:id="@+id/btn_reload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:text="COBA LAGI"
+        android:textColor="@color/white"
+        android:background="@drawable/button_gradasi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/jdl_nointernet"
+        app:layout_constraintVertical_bias="0.5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525132964610",
+    "project_id": "ice-ranger",
+    "storage_bucket": "ice-ranger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525132964610:android:dc1708aee4c9463d04581b",
+        "android_client_info": {
+          "package_name": "id.web.prima.iceranger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp1UEciRhW5NFOSmjxWixoDQupxrlu2tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

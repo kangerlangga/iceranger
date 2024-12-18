@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentang">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_gradien"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Tentang Ice Ranger"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ice_ranger"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Dalam era modern yang penuh dengan tuntutan akan efisiensi, Ice Ranger hadir sebagai solusi revolusioner untuk memenuhi kebutuhan perusahaan pengiriman es batu. Aplikasi ini tidak sekadar berfungsi sebagai alat, tetapi sebagai mitra yang andal dalam mengoptimalkan setiap aspek operasional perusahaan."
+                android:justificationMode="inter_word"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Antarmuka yang dirancang dengan cermat memudahkan admin untuk memberikan orderan kepada driver dengan cepat dan efisien. Dari sana, admin dapat dengan mudah menjadwalkan pengiriman, mengelola pengguna, dan melacak secara real-time lokasi para driver. Inovasi ini tidak hanya mempercepat proses pengiriman, tetapi juga memberikan visibilitas maksimal, memastikan bahwa setiap tahap operasional dapat diawasi dan dikelola secara efektif."
+                android:justificationMode="inter_word"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Manajemen pengguna yang dapat disesuaikan memberikan kontrol penuh kepada admin, memberikan kemudahan dalam menanggapi dinamika bisnis dan perubahan kebutuhan pelanggan. Sementara itu, di sisi pengemudi, Ice Ranger memberikan kemampuan untuk menerima pesanan dengan cepat, memberikan konfirmasi, dan memberikan pembaruan status pengiriman secara langsung melalui aplikasi. Ini tidak hanya meningkatkan responsivitas pengiriman, tetapi juga membangun jembatan komunikasi yang kuat antara admin dan pengemudi."
+                android:justificationMode="inter_word"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Keunggulan utama dari Ice Ranger terletak pada desain antarmuka yang intuitif, memastikan bahwa baik admin maupun pengemudi dapat dengan cepat dan mudah mengakses informasi yang mereka butuhkan. Sistem pelacakan real-time memberikan visibilitas yang luar biasa, memungkinkan perusahaan untuk mengoptimalkan rencana pengiriman dan menanggapi perubahan jadwal dengan cepat dan efisien."
+                android:justificationMode="inter_word"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Dukungan teknologi GPS menjadikan Ice Ranger sebagai inovator dalam peningkatan efisiensi operasional. Ini tidak hanya memfasilitasi pelacakan driver, tetapi juga memberikan analisis data yang berharga untuk perbaikan terus-menerus dalam strategi pengiriman. Keamanan data yang diimplementasikan pada setiap transaksi memastikan bahwa informasi pengguna dan pesanan dijaga dengan cermat."
+                android:justificationMode="inter_word"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Ice Ranger bukan sekadar aplikasi; ini adalah katalisator perubahan positif dalam industri pengiriman es batu. Dengan memberikan alat yang kuat untuk admin dan pengemudi, aplikasi ini bertujuan tidak hanya untuk meningkatkan efisiensi operasional tetapi juga untuk merangkul pertumbuhan bisnis yang berkelanjutan. Sebagai mitra andal di dunia pengiriman es batu, Ice Ranger membuka pintu bagi masa depan yang lebih cerah dan terorganisir dalam industri ini."
+                android:justificationMode="inter_word"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

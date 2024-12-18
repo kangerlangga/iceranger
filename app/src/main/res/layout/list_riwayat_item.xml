@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="6dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/waktu_riwayat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terkirim : "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="3dp"/>
+        <TextView
+            android:id="@+id/pemesan_riwayat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pemesan"
+            android:textSize="12sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="3dp"/>
+        <TextView
+            android:id="@+id/driver_riwayat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driver"
+            android:textSize="12sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="3dp"/>
+        <TextView
+            android:id="@+id/jumlah_riwayat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Pesanan"
+            android:textSize="12sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="3dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
