@@ -56,7 +56,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDBsq0NPXHjgAWEgIav2qnZejB7piD47l0" />
+            android:value="YOUR_SECRET_API" />
 
         <activity
             android:name=".PetaPelanggan"
